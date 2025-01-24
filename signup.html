@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <hr>
+    <a href="index.html">HOME</a> | <a href="vedio-audio.html">Vedio</a>| <a href="login.html">Login</a> | <a href="signup.html" >signup</a>
+    <hr>
+    <center>
+    <fieldset>
+        
+    
+    <form action="">
+        <table >
+            <tr>
+                <td><label >First Name:</label></td>
+                <td><input type="text" name="firstName"pattern="[A-Za-z]{3,}"tittle="only alphabet atleast 3 "required autofocus></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td ><input type="text"name="lastName"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td ><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Mobile:</td>
+                <td ><input type="text" name="Mobile" pattern="[0-9]{10}" tittle="only digits length 10" maxlength="10" ></td>   
+            </tr>
+            <tr>
+                <td>DOB:</td>
+                <td ><input type="date" name="dob" min="2025-01-01" ></td>   
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" value="Male" id="male" name="gender">Male
+                <input type="radio" value="Female"id="female" name="gender">Female</td>
+            </tr>
+            <tr>
+                <td>Known Language:</td>
+                <td><input type="checkbox" name="language">Hindi
+                <input type="checkbox">English</td>
+            </tr>
+            <tr>
+                <td>Citizen:</td>
+                <td ><input type="text" value="Indian" name="Citizen" disabled></td>   
+            </tr>
+          <tr>
+            <td>City:</td>
+            <td><select name="City" >
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Chennai">Chennai</option>
+            </select>
+        </td>
+          </tr>
+          <tr>
+            <td>Address:</td>
+            <td><textarea name="address" id="" cols="20" rows="5"></textarea></td>
+          </tr>
+            <tr>
+                <td>Password:</td>
+                <td ><input type="password" name="Password"></td>   
+            </tr>
+            <tr>
+                <td ><input type="submit" name="submit"></td>
+                <td><input type="reset" name="reset"></td>    
+            </tr>   
+        </table>
+    </form>
+    Already Registerd?<a href="login.html"><button>Login Now</button></a>
+</fieldset>
+</center>
+<p> &copy; copyright by dzinex technologies pvt ltd </p>
+</body>
+</html>
